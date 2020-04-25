@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+
+}
+.container{
+    width: 1110px;
+    margin: auto;
+}
+
+.header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 50px;
+    align-items: center;
+}
+.header ul li a:hover{
+    color: #e55b77;
+}
+.header img{
+    height: 30px;    
+}
+
+.main-menu ul li {
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #f8f9fb;
+}
+.slider{
+    
+    position: relative;
+    text-align: center;
+}
+.slider img{
+    width: 1280px;
+    text-align: center;
+}
+.info{
+    line-height: 60px;
+    top: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    color: white;
+    }
+.info button{
+    border:  none;
+    margin: 10px;
+    padding: 20px 40px ;
+    border-radius: 35px;
+    font-size: 20px;
+}   
+.info button:hover{
+    border: solid #e55b77 5px;
+    color: #e55b77;
+    /* background-color: #e55b77;
+    color: white; */
+    background: transparent;
+} 
+.about-me{
+    padding: 50px 0 0;
+    display: flex;
+}
+.about-me img{
+    margin: 20px;
+    height: 400px;
+}
+.about-me-container{
+    margin: 20px;
+    width: 600px;
+}
+
+.about-me-container span{
+    color: #e55b77;
+}
+.about-me-container h1 {
+    font-size: 32px;
+    Font-weight: 700;
+    Line-height: 38.4px;
+    color: rgb(33, 37, 41)
+    
+}
+.about-me-container h2{
+    Line-height: 38.4px;
+    font-size: 24px;
+
+}
+.about-me-container p{
+    Font-size: 16px;
+    Font-weight: 400;
+    line-height: 24px;
+    color: rgb(108, 117, 125)
+
+}
+.icons ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.icons ul li {
+    color: black;
+    display: inline;
+    font-size: 40px;
+    margin: 10px;
+}
+.icons ul li a i{
+    text-decoration: none;
+    color: black;
+}
+.icons ul li a i:hover{
+    color: #e55b77;
+}
+
+.our-services{
+    padding: 30px 0 50px 0;
+}
+.text-header{
+    padding: 30px;
+    
+    text-align: center;
+}
+.text-header h1{
+    line-height: 100px;
+    font-weight: 500;
+}
+.text-header h1 span{
+    font-weight: 600;
+}
+.our-services{
+    text-align: center;
+    height: 700px;
+    background-color: #f8f9fb;
+}
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+    border: gray 1px solid;
+    margin: 5px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+.box i{
+    font-size: 40px;
+    color: #e55b77;
+}
+.i-am-available-for-freelancer{
+    height: 180px;
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+}
+.i-am-available-for-freelancer button{
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #e55b77;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.our-client{
+    line-height: 40px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #f8f9fb;
+    height: 400px;
+}
+.our-client img{
+    border-radius: 50%;
+}
+
+.our-work-text{
+    text-align: center;
+    margin-top: 50px;
+}
+.our-work-text h1{
+    line-height: 50px;
+}
+.our-work-text p{
+    line-height: 40px;
+}
+.button{
+    text-align: center;
+    margin-top: 40px;
+}
+.button ul li{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+
+}
+.button ul li:nth-child(1) a{
+    background-color: #e55b77;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.button ul li a{
+    color: black;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    background-color: #e55b77;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+
+}
+.our-work-image{
+    padding-top: 30px;
+    text-align: center;
+}
+.our-work-image img{
+    border-radius: 5px;
+    padding: 11px;
+}
+.our-blog{
+    height: 650px;
+    background-color: #f8f9fb;
+    
+}
+.blog-text{
+    padding-top: 50px;
+    text-align: center;
+}
+.blog-text h1{
+    line-height: 50px;
+}
+.blog-text p{
+    line-height: 40px;
+}
+.our-blog img{
+    height: 225px;
+    width: 325px;
+    float: left;
+    padding: 10px;   
+}
+.our-blog-box{
+    margin: 18px;
+    height: 250px;
+    width: 330px;
+    display: inline-block;
+}
+.our-blog-box-text{
+    padding: 10px;
+}
+.our-blog-box-text span {
+    color: #e55b77;
+}
+.our-blog-box-text p{
+    line-height: 25px;
+}
+.contact-us{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-us-box{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.contact-us-box i{
+    font-size: 30px;
+    margin: 20px;
+}
+.contact-us-text h1 {line-height: 80px;}
+.footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.our-blog a{
+    text-decoration: none;
+    color: black;
+}
